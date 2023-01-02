@@ -4,160 +4,334 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aldprdnhkm | Portfolio</title>
+    <title>Portfoli | Aldprdnhkm</title>
+    <link rel="stylesheet" href="css/color-1.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <i class="uil uil-bars" id="menu-icon"></i>
-    <!-- header -->
-    <div id="header">
-      <div class="profile">
-        <img src="img/profile.png" alt="foto profile" />
-        <h1><a href="#">Aldi Pradana Hakim</a></h1>
-        <div class="social-links">
-          <a href="https://twitter.com/AldiPradanaHak1/" target="_blank"><i class="uil uil-twitter"></i></a>
-          <a href="https://instagram.com/aldprdnhkm8/" target="_blank"><i class="uil uil-instagram"></i></a>
-          <a href="https://line.me/ti/p/_nqqDNf-V1" target="_blank"><i class="uil uil-line"></i></a>
-          <a href="https://github.com/AldiPradanahakim/" target="_blank"><i class="uil uil-github"></i></a>
-          <a href="mailto:aldi.pradan.hakim26@gmail.com?subject=Tanya%20Website&body=Saya%20Tertarik%20dengan%20Website%20Anda" target="_blank"><i class="uil uil-envelope"></i></a>
+    <!-- Main container start -->
+    <div class="main-container">
+      <div class="aside">
+        <div class="logo">
+          <a href="https://instagram.com/aldprdnhkm8/"><span>A</span>ldi</a>
         </div>
-      </div>
-
-      <nav class="nav-menu">
-        <ul>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
           <li>
-            <a href="#Home" class="active"
-              ><i class="uil uil-home"></i><span>Home</span></a
-            >
+            <a href="#Home" class="active"><span>Home</span></a>
           </li>
           <li>
-            <a href="#about"><i class="uil uil-user"></i><span>About</span></a>
+            <a href="#about"><span>About</span></a>
           </li>
           <li>
-            <a href="#portfolio"><i class="uil uil-suitcase-alt"></i><span>Portfolio</span></a>
+            <a href="#hobby"><span>Hobby</span></a>
           </li>
           <li>
-            <a href="#hobby"><i class="bx-Skill"><i class="uil uil-football"></i><span>My Hobby</span></a>
+            <a href="#idols"><span>Idols</span></a>
           </li>
           <li>
-            <a href="#contact"><i class="uil uil-phone"></i><span>Contact</span></a>
+            <a href="#contact"><span>Contact</span></a>
           </li>
+          <!-- <i class="uil uil-times" onclick="tutup()"></i> -->
         </ul>
-      </nav>
+        <!-- <i class="uil uil-bars" onclick="buka()"></i> -->
+      </div>
+      <div class="main-content">
+        <!-- home section  -->
+        <section id="home" class="home section">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">Aldi Pradana Hakim</span>
+                </h3>
+                <h3 class="my-profession">
+                  i,m a <span class="ryping">students University Pasundan</span>
+                </h3>
+                <a href="#contact" class="btn for-me">For me</a>
+              </div>
+              <div class="home-img padd-15">
+                <img src="img/profil.jpg" alt="home" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- home section end -->
+
+        <!-- about section start -->
+        <section id="about" class="about section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>
+                      i'm Aldi Pradana Hakim and
+                      <span>Students university pasundan</span>
+                    </h3>
+                    <p>
+                      Saya Aldi Pradana Hakim mahasiswa universitas pasundan,
+                      lahir di bekasi pada 29 april 2004. Saya harus sukses dan
+                      menjadi seorang web development pada 4 tahun kemudian.
+                      Saya juga berniat bisa menciptakan suata hal dalam bidang
+                      IT dan memiliki cita-cita menjadi seorang pengusaha sukses
+                      di dunia dalam bidang apapun namun salah satunya saya
+                      harus sukses dalam bidang IT.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>29 April 2004</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>18</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Place of birth : <span>Bekasi</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>
+                          Email : <span>Aldi.pradan.hakim26@gmail.com</span>
+                        </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>instagram : <span>@aldprdnhkm8</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>085813954883</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Bandung</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Students : <span>Universitas Pasundan</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="skill-percent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="skill-percent">75%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="skill-percent">20%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>PHP</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="skill-percent">10%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- about section end -->
+
+        <!-- My Hobby start -->
+        <section id="hobby" class="hobby section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>My Hobby</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="hobby-item padd-15">
+                <div class="hobby-item-inner">
+                  <img src="img/Sepak bola.png" alt="sepakbola" />
+                  <h4>Sepakbola</h4>
+                  <p>
+                    Sepak Bola hobby saya yang pertama, saya sangat menyukai
+                    hobby ini karena selain menyehatkan dan membuat bahagia.
+                  </p>
+                </div>
+              </div>
+              <div class="hobby-item padd-15">
+                <div class="hobby-item-inner">
+                  <img src="img/futsal.png" alt="futsal" />
+                  <h4>Futsal</h4>
+                  <p>
+                    Futsal hobby saya yang kedua setelah sepak bola, saya
+                    menyukai hobby ini karena sama seperti sepak bola tetapi
+                    saya lebih menyukai sepak bola.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- My hobby end -->
+
+        <!-- portfolio section start -->
+        <section id="idols" class="idols section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Idols</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="idols-heading">
+                <h2>My Player idols :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="idols-item padd-15">
+                <div class="idols-item-inner shadow-dark">
+                  <div class="idols-img">
+                    <img src="img/ronaldo.jpg" alt="1" />
+                  </div>
+                </div>
+              </div>
+              <div class="idols-item padd-15">
+                <div class="idols-item-inner shadow-dark">
+                  <div class="idols-img">
+                    <img src="img/messi.jpeg" alt="2" />
+                  </div>
+                </div>
+              </div>
+              <div class="idols-item padd-15">
+                <div class="idols-item-inner shadow-dark">
+                  <div class="idols-img">
+                    <img src="img/ozil.jpg" alt="3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- portfolio section end -->
+        <!-- contact section start -->
+        <section id="contact" class="contact section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i></i></div>
+                <h4>Call Us On</h4>
+                <p>+62 85813954883</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i></i></div>
+                <h4>Office</h4>
+                <p>Bandung</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i></i></div>
+                <h4>Email</h4>
+                <p>aldi.pradan.hakim26@gmail.com</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i></i></div>
+                <h4>Instagram</h4>
+                <p>@aldprdnhkm8</p>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title padd-15">
+              I'M VERY RESPOSIVE TO MESSAGES
+            </h4>
+            <!-- contact form -->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        class="form-control"
+                        id=""
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <button type="submit" class="btn">Send</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact section end -->
+      </div>
     </div>
-    <!-- Header end -->
-
-    <!-- Home -->
-    <section id="Home">
-      <div class="header-logo">ALDPRDNHKM</div>
-      <img src="img/hero.png" alt="Aldi" />
-      <div class="container">
-        <h4>Hello Everyone</h4>
-        <p>I'm Aldi Pradana Hakim</p>
-        <pre id="text"></pre>
-      </div>
-    </section>
-    <!-- Home end -->
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <h1>About Me</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
-          beatae blanditiis velit corrupti neque, totam numquam voluptates
-          doloribus, autem illo quaerat optio praesentium soluta quo provident
-          ad harum. Accusamus, facere.
-        </p>
-      </div>
-    </section>
-    <!-- About end -->
-
-    <!-- Portfolio -->
-    <section id="portfolio">
-      <div class="container">
-        <h1>Portfolio</h1>
-        <div class="grid">
-          <img class="img-1" src="img/portfolio/1.png" alt="">
-          <img class="img-2" src="img/portfolio/2.png" alt="">
-          <img class="img-3" src="img/portfolio/3.png" alt="">
-          <img class="img-4" src="img/portfolio/1.png" alt="">
-        
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio end -->
-    <!-- My Hobby -->
-    <section id="hobby">
-      <div class="container">
-        <h1>My Hobby</h1>
-        <div class="grid-hobby">
-          <div class="card">
-            <img src="img/Sepak bola.png" alt="Sepakbola">
-            <div class="card-body">
-              <p>Sepak Bola hobby saya yang pertama, saya sangat menyukai hobby ini karena selain menyehatkan sepak bola juga membuat saya mempunyai teman yang banyak dan saya sering keluar kota hanya untuk bermain sepak bola. </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/futsal.png" alt="Futsal">
-            <div class="card-body">
-              <p>Futsal hobby saya yang kedua setelah sepak bola, saya menyukai hobby ini karena sama seperti sepak bola tetapi saya lebih menyukai sepak bola.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/music.png" alt="music">
-            <div class="card-body">
-              <p>Music mungkin hobby terbaru bagi saya, sebab akhir akhir saya sangat suka mendengarkan musik setiap harinya karena bisa membuat saya senang dan bersemangat.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- My Hobby end -->
-
-    <!-- contact us -->
-    <section id="contact">
-      <div class="container">
-        <h1>Contact</h1>
-        <p>want to spend time on aldprdnhkm web development? i would love to hear from you!
-          <br> feel free to contact us at one of the links on the left side of this website, <br> and I will get back to you as soon as possible</p>
-        <form>
-            <label for="nama" >Nama</label>
-            <input
-              type="text"
-              id="nama"
-              placeholder="masukkan nama" required
-            />
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="masukkan email" required
-            />
-            <label for="telp">No Telp</label>
-            <input
-              type="tel"
-              placeholder="masukkan no telepon" required
-            />
-            <label for="pesan">Pesan</label>
-            <textarea
-              placeholder="masukkan pesan" 
-            ></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-    </section>
-    <!-- contact us end -->
-
-    <!-- footer -->
-    <footer>
-        <p><i class="uil uil-copyright"></i>Copyright 2022 | made by<a href="https://twitter.com/AldiPradanaHak1/" target="_blank">@aldprdnhkm8</a></p>
-    </footer>
-    <!-- footer end -->
+    <!-- main container end -->
     <script src="js/script.js"></script>
   </body>
 </html>
